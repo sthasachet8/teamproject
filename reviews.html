@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Reviews</title>
+	<link rel = "icon" href = "logo.jpg" 
+        type = "logo">
+</head>
+<body class="rev">
+	<link rel="stylesheet" href="company.css">
+	<link rel="stylesheet" type="text/css" href="teamproject.html">
+	<header>
+		<div id="abt">
+			<a href="teamproject.html">
+			<figure>
+				<img src="logo.jpg" alt="logo" class="logo2">
+			</figure></a>
+			<h1 class="us">Reviews</h1>
+		</div>
+	</header>
+	<br><br>
+	
+	<!-- <nav> -->
+		<a href="charliejones@gmail.com" class="smith"> @charlie_jones </a>
+		<p class="elle"> 
+		Such an amazing site. I loved it. </p>
+
+		<a href="johnsmith@gmail.com" class="smith"> @john_smith </a>
+		<p class="elle"> loved this site alot. </p>
+	<!-- </nav> -->
+
+	<div id="comment">
+		<div class="row">
+	        <div class="col-6">
+	        	<textarea type="text" class="input" placeholder="Write a comment" v-model="newItem" @keyup.enter="addItem()"></textarea>
+	        	<br><br>
+	          		<button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
+	        </div>
+	        <!-- End col -->
+      	</div>
+     	<!--End Row -->
+	</div>
+
+	<br><br>
+</body>
+</html>

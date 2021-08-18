@@ -1,0 +1,600 @@
+body{
+	background-color: white;
+    font-family: calibri;
+    /*font-size: 16px;*/
+}
+
+header {
+    background-color: black;
+    line-height: 650%;
+    outline: none;
+    border-top: 1px solid #cae0e7;
+    border-bottom: 1px solid #cae0e7;
+    position: relative;
+}
+
+.logo{
+    float: left;
+    width: 12%;
+    border-radius: 60px;
+}
+
+#hm a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#hm {
+   margin-left: 29%;
+}
+
+#hm a:hover{
+    color: lightgrey;
+    font-style: italic;
+}
+
+li.sep {
+    background: white;
+    margin: auto 30px;
+    display: inline-block;
+    height: 16px;
+    width: 2px;
+}
+
+.welcome1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.welcome {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#graphic{
+    text-align: center;
+}
+
+#outerwrapper {
+    background-color: lightgrey;
+    line-height: 250%;
+    outline: none;
+    border-top: 1px solid #cae0e7;
+    border-bottom: 1px solid #cae0e7;
+    position: relative;
+    padding: 3%;
+}
+
+
+/*starting of table tag*/
+
+table{
+    border: 0.1em solid black;
+    border-collapse: collapse;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 30%;
+} 
+
+th{
+    border: 0.1em solid black;
+    padding: 0.5em;
+    text-align: center;
+    background-color: #c2c2d6;
+    padding:10px;
+}
+
+td{
+    border: 0.1em solid black;
+    padding: 0.5em;
+    background-color: #c2c2d6;
+    text-align: center;
+    height: 2em;
+    vertical-align: center;
+}
+
+.service {
+    /*float: left;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*padding: 3%;*/
+}
+
+.client {
+    /*float: right;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*padding: 3%;*/
+}
+
+.industry {
+    margin-left: auto;
+    margin-right: auto;
+    /*float: center;*/
+}
+
+/*css of review*/
+
+.smith {
+   text-decoration: underline;
+   color: blue;
+   font-size: 20px;
+}
+
+.rev{
+    background-color: whitesmoke;
+}
+
+.view {
+    color: white;
+    text-align: center;
+}
+
+.elle {
+    border: 2px black solid;
+    padding: 3%;
+    width: 60%;
+}
+
+.input {
+    width: 25%;
+}
+
+.page {
+    /*float: right;*/
+    color: black;
+    font-size: 18px;
+    margin-left: 70%;
+}
+
+.page:hover {
+    color: royalblue;
+    font-style: italic;
+}
+
+.foot {
+    background-color: rgb(8, 6, 51);
+    line-height: 250%;
+    outline: none;
+    border-top: 1px solid #cae0e7;
+    border-bottom: 1px solid #cae0e7;
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    padding-top: 20px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  padding-right: 0.8em;
+}
+
+/*css of aboutus*/
+
+.aboutus {
+    color: white;
+    text-decoration: none;
+    padding-right: 1.6em;
+}
+
+.aboutus:hover {
+    color: lightgrey;
+    font-style: italic;
+}
+
+.logo2 {
+    float: left;
+    width: 11%;
+    border-radius: 60px;
+    margin-top: -33px;
+}
+
+.imagex{
+    max-width: 30%;
+    padding-right: 1em;
+    border: solid black;
+    border-radius: 1em;
+}
+
+#abt {
+    line-height: 200%;
+}
+
+/*css of contactus*/
+
+.contact{
+    color: white;
+    text-decoration: none;
+}
+
+.contact:hover{
+    color: lightgrey;
+    font-style: italic;
+}
+
+.foot a {
+    color: white;
+}
+
+.us{
+    color: white;
+    text-align: center;
+    margin-top: -4px;
+}
+
+.end {
+    background-color: rgb(8, 6, 51);
+    line-height: 430%;
+    outline: none;
+    border-top: 1px solid #cae0e7;
+    border-bottom: 1px solid #cae0e7;
+    position: relative;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.endd {
+    background-color: rgb(8, 6, 51);
+    line-height: 430%;
+    outline: none;
+    border-top: 1px solid #cae0e7;
+    border-bottom: 1px solid #cae0e7;
+    position: relative;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+#mid{
+    text-align: center;
+}
+
+
+#navis a{
+    color: white;
+}
+
+/*css of login*/
+
+.infoo {
+    font-size: 20px;
+}
+
+.info {
+    font-size: 20px;
+    margin-top: 5em;
+}
+
+*{
+    margin-left: 3px;
+}
+
+.login{
+    height: 100%;
+    width: 100%;
+    background-image: url(login2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+} 
+
+.form-box{
+    width: 400px;
+    height: 350px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 0.5em;
+}
+
+h3 {
+    margin-left: 42%;
+}
+
+.input-group{
+    top: 5em;
+    position: absolute;
+    width: 70%;
+    margin-left: 12.5%;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    outline: none;
+    border: 2px darkgrey solid;
+    background: transparent;
+    border-radius: 2px;
+}
+
+.submit-btn{
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    border: 0;
+    outline: none;
+    background: rgb(51, 179, 222);
+    border-radius: 1.5em;
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+
+span{
+    color: black;
+    font-size: 1em;
+    bottom: 62px;
+    position: absolute;
+}
+
+.back {
+    margin-left: 45.5%;
+}
+
+.back:hover{
+    color: darkblue;
+    font-style: italic;
+}
+
+/*css of signin*/
+
+*{
+    margin-left: 3px;
+    font-family: calibri;
+}
+
+.signin{
+    height: 100%;
+    width: 100%;
+    background-image: url(login2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+
+} 
+
+.signin-btn{
+     width: 60;
+    margin-left: 35%;
+    background-color: white;
+    border: none;
+}
+
+.form-box-2 {
+    width: 700px;
+    position: relative;
+    margin: 2%auto;
+    background: #fff;
+    padding: 0.5em;
+    font-size: 35px;
+    height: 940px;
+}
+    
+
+.input-group{
+    top: 5em;
+    position: absolute;
+    width: 70%;
+    margin-left: 12.5%;
+    font-size: 1em;
+    font-family: calibri;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    outline: none;
+    border: 2px darkgrey solid;
+    background: transparent;
+    border-radius: 2px;
+    font-size: 1em;
+}
+
+.submit-btn{
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    border: 0;
+    outline: none;
+    background: rgb(51, 179, 222);
+    border-radius: 1.5em;
+    font-size: 1em;
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+
+span{
+    color: black;
+    font-size: 1em;
+    bottom: 104px;
+    position: absolute;
+}
+
+.back {
+    margin-left: 45.5%;
+}
+
+/*for tablet*/
+@media only screen and (min-width: 700px){
+   #hm {
+        margin-left: 40%;
+    }
+
+    #hm a{
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+    }
+
+    #abt {
+        line-height: 220%;
+    }
+
+    .service {
+        float: left;
+        margin-left: 7%;
+        padding: 3%;
+    }
+
+    .client {
+        float: right;
+        margin-right: 3%;
+        padding: 3%;
+    }
+
+    .industry {
+        margin-left: 27%;
+    }
+
+    .logo {
+        float: left;
+        width: 8%;
+        border-radius: 60px;
+    }
+
+    .logo2 {
+        float: left;
+        width: 9%;
+        border-radius: 60px;
+        margin-top: -44px;
+    }
+
+    .welcome1{
+        width: 27%;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    #hm {
+        margin-left: 50%;
+    }
+
+    #hm a{
+        font-size: 25px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .logo {
+        float: left;
+        width: 5%;
+        border-radius: 60px;
+
+        
+        /*margin-top: -33px;*/
+    }
+
+    header {
+        line-height: 670%;
+    }
+
+    .home {
+        font-size: 20px;
+        padding-right: 0.8em;
+    }
+
+    .aboutus {
+        font-size: 20px;
+    }
+
+    .contact {
+        font-size: 20px;
+    }
+
+    .log {
+        font-size: 20px;
+    }
+
+    .sign{
+        font-size: 20px;
+        padding-right: 0.8em;
+    }
+
+    .review {
+        font-size: 20px;
+    }
+
+    .service {
+        float: left;
+        margin-left: 7%;
+        padding: 3%;
+    }
+
+    .client {
+        float: right;
+        margin-right: 3%;
+        padding: 3%;
+    }
+
+    .industry {
+        margin-left: auto;
+        margin-top: 200px;
+        margin-right: auto;
+    }
+
+    .logo2 {
+        float: left;
+        width: 5%;
+        border-radius: 60px;
+        margin-top: -44px;
+    }
+
+    .us{
+        color: white;
+        text-align: center;
+        margin-top: -4px;
+    }
+
+    .welcome1{
+        width: 30%;
+    }
+
+    #abt {
+        line-height: 220%;
+    }
+
+    .form-box{
+        width: 400px;
+        height: 350px;
+        position: relative;
+        margin: 6% auto;
+        background: #fff;
+        padding: 0.5em;
+    }
+
+    .form-box-2{
+        width: 400px;
+        height: 540px;
+        position: relative;
+        margin: 2%auto;
+        background: #fff;
+        padding: 0.5em;
+        font-size: 15px;
+    }
+}
